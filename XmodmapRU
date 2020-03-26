@@ -1,0 +1,17 @@
+keycode 66 = Mode_switch
+
+keysym space = space space Shift_L
+keysym Cyrillic_ve = Cyrillic_ve Cyrillic_VE Delete
+keysym Cyrillic_a = Cyrillic_a Cyrillic_A BackSpace
+
+keysym Cyrillic_en = Cyrillic_en Cyrillic_EN Home
+keysym Cyrillic_ghe = Cyrillic_ghe Cyrillic_GHE End
+keysym Cyrillic_sha = Cyrillic_sha Cyrillic_SHA Prior
+keysym Cyrillic_shcha = Cyrillic_shcha Cyrillic_SHCHA Next
+
+keysym Cyrillic_te = Cyrillic_te Cyrillic_TE Caps_Lock
+
+keysym Cyrillic_er = Cyrillic_er Cyrillic_ER Left
+keysym Cyrillic_de = Cyrillic_de Cyrillic_DE Right
+keysym Cyrillic_el = Cyrillic_el Cyrillic_EL Up
+keysym Cyrillic_o = Cyrillic_o Cyrillic_O Down

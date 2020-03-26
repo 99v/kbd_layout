@@ -1,0 +1,15 @@
+#!/bin/bash
+
+pkill xcape
+
+if grep -q 'ru' ~/.kbd_layout/current-state; then
+	setxkbmap us
+	xmodmap ~/.kbd_layout/Xmodmap
+	echo "us" > ~/.kbd_layout/current-state
+else
+	setxkbmap ru
+	xmodmap ~/.kbd_layout/XmodmapRU
+	echo "ru" > ~/.kbd_layout/current-state
+fi
+
+xcape -e 'Mode_switch=Escape'

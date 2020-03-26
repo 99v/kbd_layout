@@ -1,0 +1,18 @@
+keycode 66 = Mode_switch
+
+keysym space = space space Shift_L 
+keysym d = d D Delete
+keysym f = f F BackSpace
+
+keysym y = y Y Home
+keysym u = u U End
+keysym i = i I Prior
+keysym o = o O Next
+
+keysym n = n N Caps_Lock
+
+keysym h = h H Left
+keysym l = l L Right
+keysym k = k K Up
+keysym j = j J Down
+
